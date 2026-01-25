@@ -11,5 +11,4 @@ jobs:
       - name: Update mirror
         uses: projg2/golang-dist-mirror-action@v1
         with:
-          ssh-private-key: ${{ secrets.ssh_key }}
           upstream-repo: https://github.com/XTLS/Xray-core.git
