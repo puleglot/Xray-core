@@ -11,4 +11,5 @@ jobs:
       - name: Update mirror
         uses: projg2/golang-dist-mirror-action@v1
         with:
+          token: ${{ secrets.token }}
           upstream-repo: https://github.com/XTLS/Xray-core.git
